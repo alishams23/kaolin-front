@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white py-24 sm:py-32">
+    <div class="bg-white py-24 sm:py-32" id="about">
        
       <div class="mx-auto max-w-7xl md:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
@@ -7,7 +7,7 @@
                 <div class="relative isolate overflow-hidden bg-red-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
                   <div class="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white" aria-hidden="true" />
                   <div class="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-                    <img src="/photo/kaolin2.jpg" alt="Product screenshot"  class="-mb-12 w-[40rem] max-w-none rounded-tl-xl bg-gray-800 ring-1 ring-white/10" />
+                    <img src="/photo/kaolin4.jpg" alt="Product screenshot"  class="-mb-12 w-[40rem] max-w-none rounded-tl-xl bg-gray-800 ring-1 ring-white/10" />
                   </div>
                   <div class="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl" aria-hidden="true" />
                 </div>

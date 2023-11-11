@@ -3,9 +3,9 @@
         <Stats />
         <AboutUs />
         <About />
+        <Application/>
         <Attachment />
-        <Team />
-        <Example/>
+        <Team class="mb-10" />
         <Contact/>
         <Footer/>
 </template>
@@ -19,8 +19,8 @@ import Team from '@/components/section/Team.vue'
 import Contact from '@/components/section/Contact.vue'
 import Attachment from '@/components/section/Attachment.vue'
 import Footer from '@/components/section/Footer.vue'
-import Example from '@/components/section/Example.vue'
+import Application from '@/components/section/Application.vue'
 export default{
-    components:{HeroHeader,About,Stats,Team,Contact,Footer,Example,AboutUs,Attachment}
+    components:{HeroHeader,About,Stats,Team,Contact,Footer,Application,AboutUs,Attachment}
 }
 </script>

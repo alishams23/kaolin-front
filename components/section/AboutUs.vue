@@ -1,18 +1,21 @@
 <template>
-    <div class=" relative isolate overflow-hidden  bg-white py-24 sm:py-32">
-        <svg class="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
-            <defs>
-              <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
-                <path d="M.5 200V.5H200" fill="none" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
-          </svg>
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="  bg-white pb-10 sm:pb-10" id="aboutUs">
+      <div aria-hidden="true" class="relative">
+        <img src="/photo/mine.webp" alt="" class="h-96 w-full object-cover object-center" />
+        <div class="absolute inset-0 bg-gradient-to-t from-white" />
+      </div>
+  
+      <div class="relative mx-auto -mt-24 max-w-7xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
         <div class="mx-auto max-w-2xl lg:text-center">
-          <h2 class="text-base font-semibold leading-7 text-red-600">About us</h2>
-          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Who we are ?</p>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
+          <h2 class="text-base font-semibold leading-7 text-red-600">benefits</h2>
+          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Why Choose Us ?</p>
+          <p class="mt-6 text-lg leading-8 text-gray-600">
+            
+            Discover the advantages of partnering with us, a leading force in the mining industry. With decades of experience, we stand out for our commitment to excellence, innovation, and quality. Our diverse product portfolio, ranging from valuable raw materials to meticulously crafted final products, caters to the unique needs of various industries, making us a versatile and reliable choice.
+<br>
+<br>
+Explore the exceptional benefits of our standout product, Kaolin, renowned for its versatile applications in construction, ceramics, healthcare, and cosmetics. Produced using cutting-edge technologies and professional processing techniques, our Kaolin consistently meets and exceeds global standards.
+          </p>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
@@ -32,20 +35,20 @@
   </template>
   
   <script setup>
-  import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/vue/24/outline'
+  import { UserGroupIcon, StarIcon,  } from '@heroicons/vue/24/outline'
   
   const features = [
     {
-      name: 'Push to deploy',
+      name: 'Commitment to Quality',
       description:
-        'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
-      icon: CloudArrowUpIcon,
+        'We are dedicated to maintaining high quality from extraction to distribution.',
+      icon: StarIcon,
     },
     {
-      name: 'SSL certificates',
+      name: 'Specialized Team',
       description:
-        'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-      icon: LockClosedIcon,
+        'Our team is comprised of knowledgeable and committed individuals.',
+      icon: UserGroupIcon,
     },
 
   ]

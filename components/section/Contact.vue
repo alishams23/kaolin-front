@@ -1,19 +1,6 @@
-<!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
+
 <template>
-    <div class="relative isolate bg-gray-900">
+    <div class="relative isolate bg-gray-900" id="contact">
       <div class="mx-auto  grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div class="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 ">
           <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
@@ -32,7 +19,7 @@
            
             </div>
             <h2 class="text-3xl font-bold tracking-tight text-white">Get in touch</h2>
-            <p class="mt-6 text-lg leading-8 text-gray-300">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</p>
+            <p class="mt-6 text-lg leading-8 text-gray-300">You can contact us via the information provided below or by filling out the contact form. We appreciate your interest in our products and look forward to connecting with you.</p>
             <dl class="mt-10 space-y-4 text-base leading-7 text-gray-300">
             
               <div class="flex gap-x-4">
@@ -40,7 +27,14 @@
                   <span class="sr-only">Email</span>
                   <EnvelopeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
-                <dd><a class="hover:text-white" href="mailto:hello@example.com">hello@example.com</a></dd>
+                <dd><a class="hover:text-white" href="mailto:info@bhp-kaolin.com.com">info@bhp-kaolin.com.com</a></dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Email</span>
+                  <EnvelopeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
+                </dt>
+                <dd><a class="hover:text-white" href="mailto:sales@bhp-kaolin.com.com">sales@bhp-kaolin.com.com</a></dd>
               </div>
             </dl>
           </div>
@@ -84,5 +78,5 @@
   </template>
   
   <script setup>
-  import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline'
+  import {  EnvelopeIcon } from '@heroicons/vue/24/outline'
   </script>

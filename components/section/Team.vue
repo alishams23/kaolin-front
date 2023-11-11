@@ -1,10 +1,10 @@
 <template>
 
-    <div class="mt-10 overflow-hidden sm:mt-10">
+    <div class="mt-10 overflow-hidden sm:mt-10" id="team">
         <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-              <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our people</h2>
+              <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our team</h2>
               <p class="mt-20 text-base leading-7 text-gray-600">Our team comprises dedicated experts with extensive experience in the extraction, processing, and distribution of Kaolin. Our team members are committed to delivering high-quality, up-to-date Kaolin products adhering to international standards. With the continuous and specialized efforts of our team, we are devoted to providing exceptional value-added Kaolin products to our customers.</p>
             </div>
             <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
