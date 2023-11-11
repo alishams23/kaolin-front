@@ -41,7 +41,7 @@
                  is a key component of our portfolio. Utilizing professional processing techniques and cutting-edge technologies, we consistently produce high-quality Kaolin that meets global standards.  </p>
               <div class="mt-10 flex items-center gap-x-6">
                 <a href="#contact" class="rounded-md bg-red-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">contact us</a>
-                <a href="#aboutUs" class="text-sm font-semibold leading-6 text-gray-900"> about Kaolin<span aria-hidden="true">→</span></a>
+                <a href="#about"  class="text-sm font-semibold leading-6 text-gray-900"> about Kaolin<span aria-hidden="true">→</span></a>
               </div>
             </div>
           </div>

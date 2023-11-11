@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-900 py-24 sm:py-32">
+    <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:max-w-none">
             <div class="text-center">
@@ -15,6 +15,17 @@
             </dl>
           </div>
         </div>
+          <svg
+        class="absolute inset-0 -z-10 h-full w-full stroke-gray-700 [mask-image:radial-gradient(100%_100%_at_top_left,white,transparent)]"
+        aria-hidden="true">
+        <defs>
+          <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="200" height="200" x="50%" y="-1"
+            patternUnits="userSpaceOnUse">
+            <path d="M.5 200V.5H200" fill="none" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
+      </svg>
       </div>
 </template>
 <script setup>

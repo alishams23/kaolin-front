@@ -10,16 +10,14 @@
             </div>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 text-gray-400">
                 <li>
-                    <a href="#aboutUs" class="mr-4 hover:underline md:mr-6 ">About us</a>
+                    <a href="#aboutUs" class="mr-4 hover:underline md:mr-6 ">Why us?</a>
                 </li>
-                <li>
-                    <a href="#team" class="mr-4 hover:underline md:mr-6">Our Team</a>
-                </li>
+           
                 <li>
                     <a href="#contact" class="mr-4 hover:underline md:mr-6 ">Contact us</a>
                 </li>
                 <li>
-                    <a href="#attachment" class="hover:underline">attachment</a>
+                    <a href="#attachment" class="hover:underline">products</a>
                 </li>
             </ul>
         </div>

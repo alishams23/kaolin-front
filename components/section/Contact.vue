@@ -27,14 +27,14 @@
                   <span class="sr-only">Email</span>
                   <EnvelopeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
-                <dd><a class="hover:text-white" href="mailto:info@bhp-kaolin.com.com">info@bhp-kaolin.com.com</a></dd>
+                <dd><a class="hover:text-white" href="mailto:info@bhp-kaolin.com">info@bhp-kaolin.com</a></dd>
               </div>
               <div class="flex gap-x-4">
                 <dt class="flex-none">
                   <span class="sr-only">Email</span>
                   <EnvelopeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
-                <dd><a class="hover:text-white" href="mailto:sales@bhp-kaolin.com.com">sales@bhp-kaolin.com.com</a></dd>
+                <dd><a class="hover:text-white" href="mailto:sales@bhp-kaolin.com">sales@bhp-kaolin.com</a></dd>
               </div>
             </dl>
           </div>
