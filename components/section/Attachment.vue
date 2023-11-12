@@ -34,10 +34,9 @@
             <table class="min-w-full divide-y divide-gray-700">
               <thead>
                 <tr>
-                  <th scope="col" class=" text-center py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-white sm:pl-0">Product name</th>
+                  <th scope="col" class=" text-center py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-white sm:pl-0">Product Name</th>
                   <th scope="col" class="text-center px-3 py-3 text-left text-sm font-semibold text-white">Usage</th>
-                  <th scope="col" class="text-center px-3 py-3 text-left text-sm font-semibold text-white">TDC</th>
-                  <th scope="col" class="text-center px-3 py-3 text-left text-sm font-semibold text-white">Download</th>
+                  <th scope="col" class="text-center px-3 py-3 text-left text-sm font-semibold text-white">TDS</th>
                   
                 </tr>
               </thead>
@@ -45,7 +44,6 @@
                 <tr v-for="item in data" :key="item.title">
                   <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-0">{{ item.title }}</td>
                   <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-300">{{ item.usage }}</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-300">{{ item.tds }}</td>
                   <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-300"> <a :href="item.file"
                     download="file"
                       class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 ">

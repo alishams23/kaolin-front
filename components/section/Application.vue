@@ -48,7 +48,7 @@ Beyond ceramics, Kaolin serves diverse purposes in several industries. Its appli
   const posts = [
     {
       id: 1,
-      title: 'ceramic',
+      title: 'Tableware',
   
     imageUrl:
         '/photo/6.jpg',
@@ -57,7 +57,7 @@ Beyond ceramics, Kaolin serves diverse purposes in several industries. Its appli
     },
     {
       id: 1,
-      title: 'ceramic tile',
+      title: 'Ceramics ',
   
     imageUrl:
         '/photo/5.jpg',
@@ -66,10 +66,10 @@ Beyond ceramics, Kaolin serves diverse purposes in several industries. Its appli
     },
     {
       id: 1,
-      title: 'Engineered Stone',
+      title: 'Sanitaryware',
   
     imageUrl:
-        '/photo/7.jpg',
+        '/photo/8.jpeg',
   
 
     },
