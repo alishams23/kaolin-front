@@ -95,7 +95,7 @@ export default {
     async getData(){
 
      await fetch(
-        `http://127.0.0.1:8000/api/files/FilesList/`,
+        `https://bhp-kaolin.com/api/files/FilesList/`,
         {
           headers: {
             "Content-type": "application/json",
