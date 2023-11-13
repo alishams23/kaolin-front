@@ -44,7 +44,7 @@
                 <tr v-for="item in data" :key="item.title">
                   <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-0">{{ item.title }}</td>
                   <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-300">{{ item.usage }}</td>
-                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-300"> <a :href="item.file"
+                  <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-300"> <a :href="item.tds"
                     download="file"
                       class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 ">
                       <ArrowDownTrayIcon class="h-4 pr-3" />
