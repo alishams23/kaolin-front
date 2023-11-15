@@ -15,17 +15,17 @@
             </dl>
           </div>
         </div>
-          <svg
-        class="absolute inset-0 -z-10 h-full w-full stroke-gray-700 [mask-image:radial-gradient(100%_100%_at_top_left,white,transparent)]"
-        aria-hidden="true">
-        <defs>
-          <pattern id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="200" height="200" x="50%" y="-1"
-            patternUnits="userSpaceOnUse">
-            <path d="M.5 200V.5H200" fill="none" />
-          </pattern>
-        </defs>
-        <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
-      </svg>
+        <svg class="absolute inset-0 h-full w-full stroke-gray-700 [mask-image:radial-gradient(100%_100%_at_top_left,white,transparent)]" aria-hidden="true">
+          <defs>
+            <pattern id="54f88622-e7f8-4f1d-aaf9-c2f5e46dd1f2" width="200" height="200" x="100%" y="-1" patternUnits="userSpaceOnUse">
+              <path d="M130 200V.5M.5 .5H200" fill="none" />
+            </pattern>
+          </defs>
+          <svg x="100%" y="-1" class="overflow-visible fill-gray-800/20">
+            <path d="M-470.5 0h201v201h-201Z" stroke-width="0" />
+          </svg>
+          <rect width="100%" height="100%" stroke-width="0" fill="url(#54f88622-e7f8-4f1d-aaf9-c2f5e46dd1f2)" />
+        </svg>
       </div>
 </template>
 <script setup>
